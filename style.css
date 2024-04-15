@@ -196,7 +196,7 @@ animation:change 5s infinite step-end;
     box-shadow: 8px 8px 9px black;
 }
 #back2{
-    background-image: url(/css\ \(1\).png);
+    background-image: url(./css\ \(1\).png);
     background-position: center;
     background-size: contain;
     width:15rem;
@@ -208,7 +208,7 @@ animation:change 5s infinite step-end;
   
 }
 #back3{
-    background-image: url(/javascript.png);
+    background-image: url(./javascript.png);
     background-position: center;
     background-size: contain;
     width:15rem;
