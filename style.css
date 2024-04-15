@@ -1,0 +1,353 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family:Verdana;
+    box-sizing: border-box;
+}
+.space li{
+    list-style: none;
+    font-size: 22px;
+    cursor: pointer;
+
+}
+.space a{
+    text-decoration: none;
+}
+.nev{
+    background-color: rgb(171, 108, 230);
+    width:100%;
+    position: fixed;
+}
+.sec{
+
+background-image:linear-gradient(rgb(176, 108, 240),rgb(226, 56, 226));
+
+
+overflow:hidden;
+height: 42rem;
+/*#bccbde;*/
+scroll-behavior:smooth;
+}
+.nev{
+    display: flex;
+   justify-content: space-between;
+
+    font-weight: bold;
+  
+    font-size: 22px;
+    height: 4rem;
+    align-items: center;
+    color: white;
+    
+}
+
+.space{
+    display: flex;
+    gap:6rem;
+    font-size: 22px;
+    margin-right:8rem;
+    font-weight:400;
+    
+}
+#side{
+    display: flex;
+   gap: 20rem;
+   padding-top: 8rem;
+}
+#name {
+ text-shadow: 1px 4px 6px black;
+ color:blueviolet;
+ font-weight: bold;
+ font-size: 25px;
+ margin-left:2rem ;
+ 
+
+}
+
+.space{
+    font-weight: 700;
+}
+.space p:hover{
+    border-bottom:2px solid white;
+    color:coral;
+}
+#home{
+    color:coral;
+   
+}
+
+#size{
+    width:25rem;
+    mix-blend-mode: multiply;
+ 
+
+   
+
+}
+#ancor{
+    text-decoration: none;
+    color: white;
+}
+
+
+#photo{
+    width:20rem;
+    filter: brightness(60%);
+    background-image: url(./back.png);
+    background-position: center;
+    background-size:cover;
+    margin-right:10rem ;
+    border-radius: 4rem;
+}
+
+.img{
+ display: flex;
+ justify-content: space-between;
+ margin-top: 5rem;
+ 
+ align-items: center;
+}
+#how p{
+    margin:13px
+
+}
+#side{
+    margin-left: 13rem;
+    font-size:30px;
+    width:20rem;
+    color: white;
+        font-weight: bolder;
+        font-family: 'Courier New', Courier, monospace;
+        text-shadow: 1px 1px 4px black;
+    
+}
+.social{
+    width:6rem;
+padding: 1rem;
+    
+}
+#down{
+    width:8rem;
+    height: 3rem;
+    border-radius: 2rem;
+    outline: none;
+    border: none;
+    background-image: linear-gradient(blueviolet,rgb(220, 43, 226));
+    margin-top:12px;
+    box-shadow: 2px 2px 4px black;
+   
+}
+#change{
+    text-decoration: none;
+    font-size: 15px;
+    font-weight:bold;
+    color: white;
+}
+.main{  /* start of skill section   */
+background-image: linear-gradient(rgb(255, 208, 0),blueviolet);
+height: 50rem;
+animation:change 5s infinite step-end;
+}
+@keyframes change{
+    0%{
+        background-image: linear-gradient(rgb(255, 208, 0),blueviolet);
+    }
+    50%{
+        background-image: linear-gradient(yellowgreen,yellow);
+    }
+    100%{
+        background-image: linear-gradient(red,orange);
+    }
+}
+#lang{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bolder;
+    color:white;
+    
+}
+#lang p{
+    padding-top: 3rem;
+}
+#back1:hover{
+    box-shadow: 10px 10px 14px yellow;
+}
+#back2:hover{
+    box-shadow: 10px 10px 14px yellow;
+}
+#back3:hover{
+    box-shadow: 10px 10px 14px yellow;
+}
+#back4:hover{
+    box-shadow: 10px 10px 14px yellow;
+}
+#back5:hover{
+    box-shadow: 10px 10px 14px yellow;
+}
+#back1{
+    background-image: url(./1024px-HTML5_logo_and_wordmark.svg.png);
+    background-position: center;
+    background-size:contain;
+    background-repeat: no-repeat;
+    width:15rem;
+    height:12rem;
+    border-radius: 1rem;
+    background-color: yellowgreen;
+    box-shadow: 8px 8px 9px black;
+}
+#back2{
+    background-image: url(/css\ \(1\).png);
+    background-position: center;
+    background-size: contain;
+    width:15rem;
+    background-repeat: no-repeat;
+    height:12rem;
+    border-radius: 2rem;
+    background-color: yellowgreen;
+    box-shadow: 8px 8px 9px black;
+  
+}
+#back3{
+    background-image: url(/javascript.png);
+    background-position: center;
+    background-size: contain;
+    width:15rem;
+    background-repeat: no-repeat;
+    height:12rem;
+ background-color: yellowgreen;
+ border-radius: 2rem;
+ box-shadow: 8px 8px 9px black;
+}
+
+
+.inside{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap:5rem;
+    margin: 2rem;
+    margin-top: 10rem;
+   
+    
+}
+.about{
+    display: flex;
+    justify-content: space-between;
+    padding: 7rem;
+    background-color: rgb(19, 18, 18);
+}
+#about_image{
+    height:20rem;
+    border-radius: 3rem;
+    margin-top: 5rem;
+}
+.padd{
+    line-height: 3rem;
+    font-size: 22px;
+}
+.padd p{
+    color: white;
+    margin:2rem;
+}
+.colo{
+    color:rgb(0, 255, 179);
+    font-weight: bolder;
+}
+#head{
+    font-size: 35px;
+    color:aqua;
+    text-align: center;
+}
+.hold{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+}
+.ranbo{
+    display: flex;
+    flex-direction: column;
+ align-items: center;
+    justify-content: center;
+    height: 30rem;
+    width:60rem;
+    background-color: blue;
+    border-radius: 4rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   
+}
+.jobb{
+    font-weight: bold;
+}
+.one{
+    font-size: 22px;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 4px;
+    margin: 14px;
+  
+    
+}
+.one span{
+    cursor: pointer;
+}
+.small{
+    border-top: 1px solid black;
+
+}
+.under{
+    width:50%;
+   
+   
+}
+#shadow{
+    text-shadow: 3px 3px 5px black;
+}
+
+@media(max-width:430px){
+    .space{
+        display: none;
+    }
+    #side{
+        position: relative;
+        right:12rem;
+        font-size: 15px;
+    }
+    #photo{
+        position: relative;
+        right:12rem;
+        width:12rem;
+        filter: brightness(80%);
+    }
+    #photo{
+        background-image: url(./back.png);
+        background-position: center;
+        background-size: cover;
+    }
+   .sec{
+    width:100%;
+   }
+   #about_image{
+    width:10rem;
+    border-radius: 70%;
+    height: 13rem;
+    position: relative;
+ 
+    bottom: 11rem;
+   }
+   .padd{
+    position: relative;
+    top:7rem;
+    right: 14rem;
+    line-height: 2rem;
+   }
+   .main{
+    height:100rem;
+   }
+   .inside{
+    display: flex;
+    height: 20rem;
+   }
+}
